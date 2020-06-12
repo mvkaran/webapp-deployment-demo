@@ -46,9 +46,44 @@ The demo application that will be used in this tutorial is https://github.com/ap
 
 Contents:
 
-<!-- toc -->
-
-
+- [Web App Deployment on the Cloud](#web-app-deployment-on-the-cloud)
+    - [Prerequisites](#prerequisites)
+      
+    - [Demo Application](#demo-application)
+  - [Step-by-step Tutorial](#step-by-step-tutorial)
+    - [Preparing the demo application](#preparing-the-demo-application)
+      - [1. Create a copy of the repository](#1-create-a-copy-of-the-repository)
+      - [2. Run the application locally](#2-run-the-application-locally)
+      - [3. Commit the changes to your GitHub repository](#3-commit-the-changes-to-your-github-repository)
+    - [Setting up an AWS Account](#setting-up-an-aws-account)
+    - [Creating cloud infrastructure on AWS](#creating-cloud-infrastructure-on-aws)
+      - [1. Create an EC2 instance](#1-create-an-ec2-instance)
+      - [2. Login to your EC2 Instance](#2-login-to-your-ec2-instance)
+      - [3. Setup your EC2 instance with required tools](#3-setup-your-ec2-instance-with-required-tools)
+    - [Manually Deploy your application](#manually-deploy-your-application)
+      - [1. Setup Git on EC2](#1-setup-git-on-ec2)
+      
+      - [2. Download your application](#2-download-your-application)
+      
+      - [3. Test your application](#3-test-your-application)
+      
+      - [4. Add hostname to environment file](#4-add-hostname-to-environment-file)
+      
+      - [5. Run Gunicorn server](#5-run-gunicorn-server)
+      
+      - [6. Create a socket for gunicorn](#6-create-a-socket-for-gunicorn)
+      
+      - [7. Create a service for gunicorn](#7-create-a-service-for-gunicorn)
+      
+      - [8. Enabling and testing the service](#8-enabling-and-testing-the-service)
+      
+      - [9. Configuring NGINX server](#9-configuring-nginx-server)
+      
+      - [10. Register DNS on Cloudflare (Optional)](#10-register-dns-on-cloudflare-optional)
+      
+      - [11. Use domain name (Optional)](#11-use-domain-name-optional)
+      
+        
 
 ### Preparing the demo application
 
