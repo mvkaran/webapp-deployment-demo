@@ -21,24 +21,24 @@ The required system/tools are:
 - Debian-based OS (Like Ubuntu, above 16.04)
 - Git
 
-  - Installation & Setup Instructions: https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04-quickstart
+  - [Installation & Setup Instructions](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-18-04-quickstart)
 - Python 3
 
-  - Installation: https://phoenixnap.com/kb/how-to-install-python-3-ubuntu
+  - [Installation](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu)
 
 
 
 Accounts you would need:
 
-- GitHub (https://github.com)
-- AWS (https://aws.amazon.com) 
-- Cloudflare (https://cloudflare.com)
+- [GitHub](https://github.com)
+- [AWS](https://aws.amazon.com) 
+- [Cloudflare](https://cloudflare.com)
 
 
 
 #### Demo Application
 
-The demo application that will be used in this tutorial is https://github.com/app-generator/django-dashboard-adminator which is an open-source dashboard admin panel built using Django framework on Python
+The [demo application](https://github.com/app-generator/django-dashboard-adminator) that will be used in this tutorial is an open-source dashboard admin panel built using Django framework on Python
 
 ---
 
@@ -99,7 +99,7 @@ git clone --bare https://github.com/app-generator/django-dashboard-adminator.git
 
 
 
-Go to your GitHub account and create a new repository with the name ``django-dashboard-adminator`` . Select the visibility as ``Public`` . Instructions for creating a new repository can be found here - https://help.github.com/en/github/getting-started-with-github/create-a-repo
+Go to your GitHub account and create a new repository with the name ``django-dashboard-adminator`` . Select the visibility as ``Public`` . Instructions for creating a new repository can be found [here](https://help.github.com/en/github/getting-started-with-github/create-a-repo).
 
 
 
@@ -224,7 +224,7 @@ We are now ready to deploy our application on AWS!
 
 ---
 
-Create an account on https://aws.amazon.com. This would require a Debit/Credit card and also a working phone number for verification. Once created, we will be using (almost) free resources for the demo application.
+Create an account on [AWS](https://aws.amazon.com). This would require a Debit/Credit card and also a working phone number for verification. Once created, we will be using (almost) free resources for the demo application.
 
 
 
@@ -336,7 +336,7 @@ cat id_rsa.pub
 
 Copy the entire output you see.
 
-Add this SSH key to your GitHub account using the instructions found here - https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+Add this SSH key to your GitHub account using the instructions found [here](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account).
 
 
 
